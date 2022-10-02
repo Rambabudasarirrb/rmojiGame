@@ -1,0 +1,54 @@
+.navBar-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff33;
+  padding: 10px;
+}
+.nav-sub-containe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-family: 'Roboto';
+  width: 80%;
+}
+.logo-title-container {
+  display: flex;
+  align-items: center;
+}
+.emoji-logo {
+  width: 24px;
+}
+@media screen and (min-width: 768px) {
+  .emoji-logo {
+    width: 48px;
+  }
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    width: 25px;
+  }
+}
+.scores-container {
+  display: flex;
+  flex-direction: row;
+}
+.score {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .score {
+    font-size: 25px;
+    margin-left: 32px;
+  }
+}

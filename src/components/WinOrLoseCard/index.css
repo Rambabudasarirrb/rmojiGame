@@ -1,0 +1,106 @@
+.win-lose-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff33;
+  width: 85%;
+  border: 1px solid #ffffff30;
+  border-radius: 25px;
+  margin: auto;
+  padding: 15px;
+}
+@media screen and (min-width: 768px) {
+  .win-lose-container {
+    width: 80%;
+    padding: 32px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .win-lose-container {
+    width: 70%;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .win-lose-container {
+    width: 60%;
+  }
+}
+.score-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order: 1;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 992px) {
+  .score-details-container {
+    order: 0;
+  }
+}
+.game-status {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+}
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 50px;
+  }
+}
+.your-score-status {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px;
+}
+@media screen and (min-width: 992px) {
+  .game-status {
+    font-size: 36px;
+    margin-bottom: 0px;
+  }
+}
+.your-score {
+  color: #6a59ff;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  font-size: 15px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  text-align: center;
+  border: none;
+  border-radius: 20px;
+  margin: 15px;
+  padding: 16px;
+  padding-left: 24px;
+  margin-right: 24px;
+  cursor: pointer;
+  outline: none;
+}
+.image-section-container {
+  display: flex;
+  justify-content: center;
+  order: 0;
+}
+@media screen and (min-width: 992px) {
+  .image-section-container {
+    order: 1;
+  }
+}
+.wim-lose-image {
+  width: 150px;
+  height: 200px;
+}
+@media screen and (min-width: 992px) {
+  .wim-lose-image {
+    width: 350px;
+    height: 450px;
+  }
+}
